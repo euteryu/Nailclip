@@ -154,7 +154,7 @@ def copy_text_to_clipboard(text_to_copy):
 # --- GUI Class ---
 class ClipboardWindow(Gtk.Window):
     def __init__(self):
-        super().__init__(title="Nailclip")
+        super().__init__(title="💅 Nailclip 💅")
         self.set_border_width(10)
         self.set_default_size(500, 400)
         self.set_type_hint(Gdk.WindowTypeHint.DIALOG)
